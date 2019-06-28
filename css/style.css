@@ -1,0 +1,30 @@
+html, body{
+	height: 100%;
+	width:100%;
+}
+.back-image{
+	background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/6d4D4HR/loopable-stars-black-empty-space-4k_vjj549yxl__F0000.png');
+  height: 900px;
+  width: 1350px;
+  background-position: center;
+}
+.earth{
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	bottom: 350px;
+	right:470px;
+}
+.container:hover{
+	position: relative;
+	transition: all 0.5s ease 0.5s;
+transform: translate(-50%; -50%);
+transition: all 0.3s linear 0.4s;
+animation:  0.3s infinite 2s;
+}
+/*@keyframes earth {
+  0%   {right: 0px;  transform: rotate(0deg);}
+  25%  {right: 50px; transform: rotate(45deg);}
+  75%  {right: 200px; transform: rotate(90deg);}
+  100% {right: 400px; transform: rotate(180deg);}
+}*/
